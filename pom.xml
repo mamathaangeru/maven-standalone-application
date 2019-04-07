@@ -49,8 +49,8 @@
 	  <id>central</id>
           <name>jenkins </name>
           <url>http://ec2-13-232-229-162.ap-south-1.compute.amazonaws.com:8081/repository/mavenstand-proxy/</url>
-	</repository> -->
-		</repositories> 
+	</repository> 
+		</repositories> -->
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
 		mvn scm:update -->
