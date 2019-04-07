@@ -32,24 +32,24 @@
 		</dependency>
 
 	</dependencies>
-	<!--  <distributionManagement>
+	 <distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://ec2-13-232-229-162.ap-south-1.compute.amazonaws.com:8081/repository/mavenstand-release/</url>
+	      <url>http://ec2-13-127-185-88.ap-south-1.compute.amazonaws.com:8081/repository/mavenstand-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://ec2-13-232-229-162.ap-south-1.compute.amazonaws.com:8081/repository/mavanstand-snapshot/</url>
+	      <url>http://ec2-13-127-185-88.ap-south-1.compute.amazonaws.com:8081/repository/mavenstand-snapshot/></url>
 	    </snapshotRepository>
-	</distributionManagement> -->  
-	   <repositories>
+	</distributionManagement>  
+	<!--   <repositories>
           <repository>
 	  <id>central</id>
           <name>jenkins </name>
           <url>http://ec2-13-232-229-162.ap-south-1.compute.amazonaws.com:8081/repository/mavenstand-proxy/</url>
-	</repository>
+	</repository> -->
 		</repositories> 
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
