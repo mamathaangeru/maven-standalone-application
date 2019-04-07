@@ -43,7 +43,7 @@
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://ec2-13-127-185-88.ap-south-1.compute.amazonaws.com:8081/repository/mavenstand-snapshot/</url>
 	    </snapshotRepository>
-	</distributionManagement> -->  
+	</distributionManagement> --> 
 	  <repositories>
           <repository>
 	  <id>central</id>
